@@ -10,3 +10,4 @@ print(f"Digits: {digit_count}")
 print("@ is present? ",'@' in url )
 print("- is present? ",'-' in url )
 
+print("URL starts with", url.lower().startswith('https'))
