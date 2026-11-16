@@ -11,6 +11,6 @@ for url in urls:
 
     print("@ is present? ",'@' in url )
     print("- is present? ",'-' in url )
-
+    print(":// is present? ",'://' in url )
     print("URL starts with https?", url.lower().startswith('https'))
     print("Number of dots present in the URL ", url.count('.') )
