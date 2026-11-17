@@ -28,6 +28,8 @@
 ## Loopa and Conditions
 - for ch in url: goes through a string one character at a time.
 - if condition: runs the indented lines only when the condition is True.
+- Loop variable replaces input(): for url in urls: gives me one URL per pass, so the checks use url and the input() line goes away. Ex: for url in urls:
+- Nested loop: A loop inside a loop. The outer one picks a URL, the inner one goes through that URL's characters. Ex: for ch in url:
 
 ## Counting pattern
 - Start count = 0 before the loop, test with if inside, add 1 when it matches, print after the loop. count += 1
@@ -40,7 +42,7 @@
 - NOTE: https is not proof of safety, Many phishing sites use https, so missing https is only a weak signal. The model will weigh many features together.
 
 ## Lists and dictionaries
-- (add)
+- List of URLs: A list holds many items in square brackets, separated by commas. Ex: urls = ["https://a.co", "http://b.com"]
 
 ## Files
 - (add)
